@@ -50,3 +50,18 @@ Tool: Power BI.
 Process:
 Data from the Synapse Analytics Gold Layer is visualized in Power BI to generate actionable business insights.
 Output: Interactive reports and dashboards.
+
+AdventureWorks/
+│
+├── DataIngestion/
+│   ├── ADF-Pipeline.json  # ADF pipeline JSON export
+│   └── SampleExcelFiles/  # Sample Excel files from GitHub
+│
+├── Transformations/
+│   └── Notebooks/         # Databricks notebooks for transformations
+│
+├── DataWarehousing/
+│   └── SynapseSQL/        # SQL scripts for creating external tables
+│
+└── Reports/
+    └── PowerBI/           # Power BI report files (.pbix)
