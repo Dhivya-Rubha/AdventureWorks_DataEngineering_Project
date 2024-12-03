@@ -51,7 +51,8 @@ Process:
 Data from the Synapse Analytics Gold Layer is visualized in Power BI to generate actionable business insights.
 Output: Interactive reports and dashboards.
 
-AdventureWorks/
+Adventure Works Project/
+|
 │
 ├── Source_Data/
 │   └── .csv_Files/              # Sample Excel files from GitHub
