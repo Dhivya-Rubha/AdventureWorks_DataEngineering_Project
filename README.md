@@ -23,6 +23,7 @@ The solution follows the Medallion Architecture pattern:
 *Power BI*: For reporting and visualization.
 
 **Workflow**
+
 **1. Data Ingestion**
 Source: Excel files stored in GitHub.
 Process:
