@@ -51,21 +51,18 @@ Process:
 Data from the Synapse Analytics Gold Layer is visualized in Power BI to generate actionable business insights.
 Output: Interactive reports and dashboards.
 
-Adventure Works Project/
-|
+AdventureWorks/
 │
-├── Source_Data/
-│   └── .csv_Files/              # Sample Excel files from GitHub
-|
-├── ADF/Pipeline/
-│   ├── ADF.zip                        # ADF pipeline JSON export 
+├── DataIngestion/
+│   ├── ADF-Pipeline.json  # ADF pipeline JSON export
+│   └── SampleExcelFiles/  # Sample Excel files from GitHub
 │
-├── Databricks/
-│   └── Transformations.ipynb/         # Databricks notebooks for transformations
+├── Transformations/
+│   └── Notebooks/         # Databricks notebooks for transformations
 │
-├── Synapse_Analytics/
-│   └── External_Tables.sql/           # SQL scripts for creating external tables
-│   └── Synapse_DW.sql/ 
-|
-└── Power BI/
-    └── Adventure_Works.pbix/          # Power BI report files (.pbix)
+├── DataWarehousing/
+│   └── SynapseSQL/        # SQL scripts for creating external tables
+│
+└── Reports/
+    └── PowerBI/           # Power BI report files (.pbix)
+
